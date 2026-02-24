@@ -1,21 +1,19 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.12/pixi.min.js"></script>
-
-<script src="https://cubism.live2d.com/sdk-web/bin/live2dcubismcore.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live2D Test Page</title>
-    <script src="https://cubism.live2d.com/sdk-web/bin/live2dcubismcore.min.js"></script>
+    <title>Live2D Sample</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.12/pixi.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+    <script src="https://cubism.live2d.com/sdk-web/bin/live2dcubismcore.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/browser.index.js"></script>
 </head>
 <body style="margin:0; background-color: #f0f0f0;">
     <canvas id="canvas"></canvas>
 
     <script>
+        // 경로 설정 (대소문자 꼭 확인!)
+        const modelUrl = '아트머그샘플/라비아탄아트머그샘플.model3.json';
+
         const app = new PIXI.Application({
             view: document.getElementById('canvas'),
             autoStart: true,
@@ -23,28 +21,27 @@
             transparent: true
         });
 
-        
-        const modelUrl = '아트머그샘플/라비아탄아트머그샘플.model3.json';
+        // PIXI.live2d.Live2DModel 대신 아래 방식을 사용하면 에러를 피할 수 있습니다.
+        const { Live2DModel } = PIXI.live2d;
 
-        PIXI.live2d.Live2DModel.from(modelUrl).then(model => {
+        Live2DModel.from(modelUrl).then(model => {
             app.stage.addChild(model);
 
-            
-            model.scale.set(0.3); 
-            
-            
+            // 모델 크기 및 위치 조정
+            const ratio = window.innerHeight / model.height;
+            model.scale.set(ratio * 0.8); // 화면 높이의 80% 크기로 조절
             model.x = window.innerWidth / 2;
             model.y = window.innerHeight / 2;
             model.anchor.set(0.5, 0.5);
 
-            
+            // 마우스 추적 활성화
             model.interactive = true;
             window.addEventListener('mousemove', (e) => {
                 model.focus(e.clientX, e.clientY);
             });
+        }).catch(err => {
+            console.error("모델 로드 실패:", err);
         });
     </script>
 </body>
-
 </html>
-

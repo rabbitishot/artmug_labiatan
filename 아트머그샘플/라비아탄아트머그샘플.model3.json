@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "라비아탄아트머그샘플.moc3",
+		"Textures": [
+			"라비아탄아트머그샘플.4096/texture_00.png"
+		],
+		"Physics": "라비아탄아트머그샘플.physics3.json",
+		"DisplayInfo": "라비아탄아트머그샘플.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}

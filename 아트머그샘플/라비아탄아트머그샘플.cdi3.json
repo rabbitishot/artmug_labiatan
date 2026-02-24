@@ -1,0 +1,1384 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "호흡"
+		},
+		{
+			"Id": "ParamRePhy",
+			"GroupId": "",
+			"Name": "반복물리파라미터"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup",
+			"Name": "각도 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "각도 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup",
+			"Name": "각도 Z"
+		},
+		{
+			"Id": "ParamBodyAngleX3",
+			"GroupId": "ParamGroup",
+			"Name": "몸의 X입력"
+		},
+		{
+			"Id": "ParampositionY",
+			"GroupId": "ParamGroup",
+			"Name": "몸의 Y 입력"
+		},
+		{
+			"Id": "ParampositionY2",
+			"GroupId": "ParamGroup",
+			"Name": "몸체 Y 바운드"
+		},
+		{
+			"Id": "ParampositionZ",
+			"GroupId": "ParamGroup",
+			"Name": "몸의 Z 입력"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroup",
+			"Name": "몸의 머리위치 X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "상체의 회전 Y"
+		},
+		{
+			"Id": "ParamBodyAngleY2",
+			"GroupId": "ParamGroup",
+			"Name": "하체의 회전 Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroup",
+			"Name": "몸의 회전 Z"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup14",
+			"Name": "우쿠렐레팔의 X L"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "ParamGroup14",
+			"Name": "우쿠렐레팔의 Y L"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "ParamGroup14",
+			"Name": "우쿠렐레팔의 Y R"
+		},
+		{
+			"Id": "Paramindex",
+			"GroupId": "ParamGroup14",
+			"Name": "검지손가락"
+		},
+		{
+			"Id": "Parammiddle",
+			"GroupId": "ParamGroup14",
+			"Name": "중지손가락"
+		},
+		{
+			"Id": "Paramring",
+			"GroupId": "ParamGroup14",
+			"Name": "약지손가락"
+		},
+		{
+			"Id": "Parampinky",
+			"GroupId": "ParamGroup14",
+			"Name": "새끼손가락"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup2",
+			"Name": "왼쪽 눈 깜빡임"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup2",
+			"Name": "왼쪽 눈 미소"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup2",
+			"Name": "눈 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup2",
+			"Name": "눈 Y"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup2",
+			"Name": "눈 X 깊이"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup2",
+			"Name": "눈 Y 깊이"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup2",
+			"Name": "오른쪽 눈 깜빡임"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup2",
+			"Name": "오른쪽 눈 미소"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup3",
+			"Name": "왼쪽 눈썹 위아래로"
+		},
+		{
+			"Id": "ParamBrowLInnerup",
+			"GroupId": "ParamGroup3",
+			"Name": "왼쪽 눈썹 폼"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup3",
+			"Name": "오른쪽 눈썹 위아래로"
+		},
+		{
+			"Id": "ParamBrowRInnerup",
+			"GroupId": "ParamGroup3",
+			"Name": "오른쪽 눈썹 폼"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup4",
+			"Name": "입 여닫기"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup4",
+			"Name": "입 변형"
+		},
+		{
+			"Id": "ParamMouthFunnel",
+			"GroupId": "ParamGroup4",
+			"Name": "MouthFunnel"
+		},
+		{
+			"Id": "ParamMouthPressLipOpen",
+			"GroupId": "ParamGroup4",
+			"Name": "MouthPressLipOpen"
+		},
+		{
+			"Id": "ParamJawOpen",
+			"GroupId": "ParamGroup4",
+			"Name": "JawOpen"
+		},
+		{
+			"Id": "ParamMouthShrug",
+			"GroupId": "ParamGroup4",
+			"Name": "MouthShrug"
+		},
+		{
+			"Id": "ParamMouthX",
+			"GroupId": "ParamGroup4",
+			"Name": "MouthX"
+		},
+		{
+			"Id": "ParamCheekPuffCR",
+			"GroupId": "ParamGroup4",
+			"Name": "CheekPuffR"
+		},
+		{
+			"Id": "ParamCheekPuffCL2",
+			"GroupId": "ParamGroup4",
+			"Name": "CheekPuffL"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup4",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamFronthairshakeX",
+			"GroupId": "ParamGroup7",
+			"Name": "앞머리물리X"
+		},
+		{
+			"Id": "ParamFronthairshakeX2",
+			"GroupId": "ParamGroup7",
+			"Name": "앞머리물리X2"
+		},
+		{
+			"Id": "ParamFronthairshakeX3",
+			"GroupId": "ParamGroup7",
+			"Name": "앞머리물리X3"
+		},
+		{
+			"Id": "ParamFronthairshakeX4",
+			"GroupId": "ParamGroup7",
+			"Name": "앞머리물리X4"
+		},
+		{
+			"Id": "ParamFronthairshakeX9",
+			"GroupId": "ParamGroup7",
+			"Name": "앞머리물리X5"
+		},
+		{
+			"Id": "ParamFronthairshakeY",
+			"GroupId": "ParamGroup7",
+			"Name": "앞머리물리Y"
+		},
+		{
+			"Id": "ParamFronthairshakeY2",
+			"GroupId": "ParamGroup7",
+			"Name": "앞머리물리Y2"
+		},
+		{
+			"Id": "ParamFronthairY3",
+			"GroupId": "ParamGroup7",
+			"Name": "앞머리물리Y3"
+		},
+		{
+			"Id": "ParamFronthairshakeX5",
+			"GroupId": "ParamGroup7",
+			"Name": "L앞머리물리X"
+		},
+		{
+			"Id": "ParamFronthairshakeX6",
+			"GroupId": "ParamGroup7",
+			"Name": "L앞머리물리X2"
+		},
+		{
+			"Id": "ParamFronthairshakeX7",
+			"GroupId": "ParamGroup7",
+			"Name": "L앞머리물리X3"
+		},
+		{
+			"Id": "ParamFronthairshakeX8",
+			"GroupId": "ParamGroup7",
+			"Name": "L앞머리물리X4"
+		},
+		{
+			"Id": "ParamFronthairshakeX10",
+			"GroupId": "ParamGroup7",
+			"Name": "L앞머리물리X5"
+		},
+		{
+			"Id": "ParamFronthairshakeY5",
+			"GroupId": "ParamGroup7",
+			"Name": "L앞머리물리Y"
+		},
+		{
+			"Id": "ParamFronthairshakeY6",
+			"GroupId": "ParamGroup7",
+			"Name": "L앞머리물리Y2"
+		},
+		{
+			"Id": "ParamFronthairY4",
+			"GroupId": "ParamGroup7",
+			"Name": "L앞머리물리Y3"
+		},
+		{
+			"Id": "ParamSidehairshakeX3",
+			"GroupId": "ParamGroup8",
+			"Name": "옆머리물리X"
+		},
+		{
+			"Id": "ParamSidethairshakeX4",
+			"GroupId": "ParamGroup8",
+			"Name": "옆머리물리X2"
+		},
+		{
+			"Id": "ParamSidehairshakeY6",
+			"GroupId": "ParamGroup8",
+			"Name": "옆머리물리X5"
+		},
+		{
+			"Id": "ParamSidehairshakeY7",
+			"GroupId": "ParamGroup8",
+			"Name": "옆머리물리X3"
+		},
+		{
+			"Id": "ParamSidehairshakeY8",
+			"GroupId": "ParamGroup8",
+			"Name": "옆머리물리X4"
+		},
+		{
+			"Id": "ParamSidehairshakeY3",
+			"GroupId": "ParamGroup8",
+			"Name": "옆머리물리Y"
+		},
+		{
+			"Id": "ParamSidehairshakeY4",
+			"GroupId": "ParamGroup8",
+			"Name": "옆머리물리Y2"
+		},
+		{
+			"Id": "ParamSidehairshakeY5",
+			"GroupId": "ParamGroup8",
+			"Name": "옆머리물리Y3"
+		},
+		{
+			"Id": "ParamBackhairshakeX4",
+			"GroupId": "ParamGroup9",
+			"Name": "뒷머리물리X"
+		},
+		{
+			"Id": "ParamBackthairshakeX5",
+			"GroupId": "ParamGroup9",
+			"Name": "뒷머리물리X2"
+		},
+		{
+			"Id": "ParamBackthairshakeX6",
+			"GroupId": "ParamGroup9",
+			"Name": "뒷머리물리X3"
+		},
+		{
+			"Id": "ParamBackthairshakeX8",
+			"GroupId": "ParamGroup9",
+			"Name": "뒷머리물리X4"
+		},
+		{
+			"Id": "ParamBackthairshakeX7",
+			"GroupId": "ParamGroup9",
+			"Name": "뒷머리물리X5"
+		},
+		{
+			"Id": "ParamBackthairshakeX28",
+			"GroupId": "ParamGroup9",
+			"Name": "뒷머리물리X6"
+		},
+		{
+			"Id": "ParamBackhairshakeY5",
+			"GroupId": "ParamGroup9",
+			"Name": "뒷머리물리Y"
+		},
+		{
+			"Id": "ParamBackhairshakeY6",
+			"GroupId": "ParamGroup9",
+			"Name": "뒷머리물리Y2"
+		},
+		{
+			"Id": "ParamBackhairshakeY7",
+			"GroupId": "ParamGroup9",
+			"Name": "뒷머리물리Y3"
+		},
+		{
+			"Id": "ParamBackhairshakeX10",
+			"GroupId": "ParamGroup11",
+			"Name": "뒷머리물리X 2"
+		},
+		{
+			"Id": "ParamBackthairshakeX29",
+			"GroupId": "ParamGroup11",
+			"Name": "뒷머리물리X2 2"
+		},
+		{
+			"Id": "ParamBackthairshakeX30",
+			"GroupId": "ParamGroup11",
+			"Name": "뒷머리물리X3 2"
+		},
+		{
+			"Id": "ParamBackthairshakeX31",
+			"GroupId": "ParamGroup11",
+			"Name": "뒷머리물리X4 2"
+		},
+		{
+			"Id": "ParamBackthairshakeX32",
+			"GroupId": "ParamGroup11",
+			"Name": "뒷머리물리X5 2"
+		},
+		{
+			"Id": "ParamBackthairshakeX33",
+			"GroupId": "ParamGroup11",
+			"Name": "뒷머리물리X6 2"
+		},
+		{
+			"Id": "ParamBackhairshakeY11",
+			"GroupId": "ParamGroup11",
+			"Name": "뒷머리물리Y 2"
+		},
+		{
+			"Id": "ParamBackhairshakeY12",
+			"GroupId": "ParamGroup11",
+			"Name": "뒷머리물리Y2 2"
+		},
+		{
+			"Id": "ParamBackhairshakeY13",
+			"GroupId": "ParamGroup11",
+			"Name": "뒷머리물리Y3 2"
+		},
+		{
+			"Id": "ParamBackhairshakeX11",
+			"GroupId": "ParamGroup12",
+			"Name": "뒷머리물리X 3"
+		},
+		{
+			"Id": "ParamBackthairshakeX34",
+			"GroupId": "ParamGroup12",
+			"Name": "뒷머리물리X2 3"
+		},
+		{
+			"Id": "ParamBackthairshakeX35",
+			"GroupId": "ParamGroup12",
+			"Name": "뒷머리물리X3 3"
+		},
+		{
+			"Id": "ParamBackthairshakeX36",
+			"GroupId": "ParamGroup12",
+			"Name": "뒷머리물리X4 3"
+		},
+		{
+			"Id": "ParamBackthairshakeX37",
+			"GroupId": "ParamGroup12",
+			"Name": "뒷머리물리X5 3"
+		},
+		{
+			"Id": "ParamBackthairshakeX38",
+			"GroupId": "ParamGroup12",
+			"Name": "뒷머리물리X6 3"
+		},
+		{
+			"Id": "ParamBackhairshakeY14",
+			"GroupId": "ParamGroup12",
+			"Name": "뒷머리물리Y 3"
+		},
+		{
+			"Id": "ParamBackhairshakeY15",
+			"GroupId": "ParamGroup12",
+			"Name": "뒷머리물리Y2 3"
+		},
+		{
+			"Id": "ParamBackhairshakeY16",
+			"GroupId": "ParamGroup12",
+			"Name": "뒷머리물리Y3 3"
+		},
+		{
+			"Id": "ParamBackhairshakeX12",
+			"GroupId": "ParamGroup13",
+			"Name": "뒷머리물리X 4"
+		},
+		{
+			"Id": "ParamBackthairshakeX39",
+			"GroupId": "ParamGroup13",
+			"Name": "뒷머리물리X2 4"
+		},
+		{
+			"Id": "ParamBackthairshakeX40",
+			"GroupId": "ParamGroup13",
+			"Name": "뒷머리물리X3 4"
+		},
+		{
+			"Id": "ParamBackthairshakeX41",
+			"GroupId": "ParamGroup13",
+			"Name": "뒷머리물리X4 4"
+		},
+		{
+			"Id": "ParamBackthairshakeX42",
+			"GroupId": "ParamGroup13",
+			"Name": "뒷머리물리X5 4"
+		},
+		{
+			"Id": "ParamBackthairshakeX43",
+			"GroupId": "ParamGroup13",
+			"Name": "뒷머리물리X6 4"
+		},
+		{
+			"Id": "ParamBackhairshakeY17",
+			"GroupId": "ParamGroup13",
+			"Name": "뒷머리물리Y 4"
+		},
+		{
+			"Id": "ParamBackhairshakeY18",
+			"GroupId": "ParamGroup13",
+			"Name": "뒷머리물리Y2 4"
+		},
+		{
+			"Id": "ParamBackhairshakeY19",
+			"GroupId": "ParamGroup13",
+			"Name": "뒷머리물리Y3 4"
+		},
+		{
+			"Id": "ParamBackhairshakeX5",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀물리X"
+		},
+		{
+			"Id": "ParamBackthairshakeX9",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀물리X2"
+		},
+		{
+			"Id": "ParamBackthairshakeX10",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀물리X3"
+		},
+		{
+			"Id": "ParamBackthairshakeX11",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀물리X4"
+		},
+		{
+			"Id": "ParamBackthairshakeX12",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀물리X5"
+		},
+		{
+			"Id": "ParamBackthairshakeX19",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀물리X6"
+		},
+		{
+			"Id": "ParamBackhairshakeY8",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀물리Y"
+		},
+		{
+			"Id": "ParamBackhairshakeY9",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀물리Y2"
+		},
+		{
+			"Id": "ParamBackhairshakeY10",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀물리Y3"
+		},
+		{
+			"Id": "ParamBackhairshakeX6",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀눈썹"
+		},
+		{
+			"Id": "ParamBackthairshakeX13",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀눈썹2"
+		},
+		{
+			"Id": "ParamBackthairshakeX14",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀눈썹3"
+		},
+		{
+			"Id": "ParamBackthairshakeX15",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀눈썹4"
+		},
+		{
+			"Id": "ParamBackthairshakeX27",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀눈썹5"
+		},
+		{
+			"Id": "ParamBackhairshakeX7",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀눈"
+		},
+		{
+			"Id": "ParamBackthairshakeX16",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀눈2"
+		},
+		{
+			"Id": "ParamBackthairshakeX17",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀눈3"
+		},
+		{
+			"Id": "ParamBackthairshakeX18",
+			"GroupId": "ParamGroup10",
+			"Name": "토끼귀눈4"
+		},
+		{
+			"Id": "ParamBackhairshakeX8",
+			"GroupId": "ParamGroup10",
+			"Name": "R토끼귀눈썹"
+		},
+		{
+			"Id": "ParamBackthairshakeX20",
+			"GroupId": "ParamGroup10",
+			"Name": "R토끼귀눈썹2"
+		},
+		{
+			"Id": "ParamBackthairshakeX21",
+			"GroupId": "ParamGroup10",
+			"Name": "R토끼귀눈썹3"
+		},
+		{
+			"Id": "ParamBackthairshakeX22",
+			"GroupId": "ParamGroup10",
+			"Name": "R토끼귀눈썹4"
+		},
+		{
+			"Id": "ParamBackthairshakeX26",
+			"GroupId": "ParamGroup10",
+			"Name": "R토끼귀눈썹5"
+		},
+		{
+			"Id": "ParamBackhairshakeX9",
+			"GroupId": "ParamGroup10",
+			"Name": "R토끼귀눈"
+		},
+		{
+			"Id": "ParamBackthairshakeX23",
+			"GroupId": "ParamGroup10",
+			"Name": "R토끼귀눈2"
+		},
+		{
+			"Id": "ParamBackthairshakeX24",
+			"GroupId": "ParamGroup10",
+			"Name": "R토끼귀눈3"
+		},
+		{
+			"Id": "ParamBackthairshakeX25",
+			"GroupId": "ParamGroup10",
+			"Name": "R토끼귀눈4"
+		},
+		{
+			"Id": "ParamBodyAngleX7",
+			"GroupId": "ParamGroup17",
+			"Name": "상체 X"
+		},
+		{
+			"Id": "ParamBodyAngleX6",
+			"GroupId": "ParamGroup17",
+			"Name": "하체 X1"
+		},
+		{
+			"Id": "ParamBodyAngleX4",
+			"GroupId": "ParamGroup17",
+			"Name": "하체 X2"
+		},
+		{
+			"Id": "ParamribbonX1",
+			"GroupId": "ParamGroup15",
+			"Name": "리본 X1 위"
+		},
+		{
+			"Id": "ParamribbonX2",
+			"GroupId": "ParamGroup15",
+			"Name": "리본 X2 위"
+		},
+		{
+			"Id": "ParamribbonY1",
+			"GroupId": "ParamGroup15",
+			"Name": "리본 Y1 위"
+		},
+		{
+			"Id": "ParamribbonY2",
+			"GroupId": "ParamGroup15",
+			"Name": "리본 Y2 위"
+		},
+		{
+			"Id": "ParamribbonX3",
+			"GroupId": "ParamGroup15",
+			"Name": "리본 X1 아래"
+		},
+		{
+			"Id": "ParamribbonX4",
+			"GroupId": "ParamGroup15",
+			"Name": "리본 X2 아래"
+		},
+		{
+			"Id": "ParamribbonY3",
+			"GroupId": "ParamGroup15",
+			"Name": "리본 Y1 아래"
+		},
+		{
+			"Id": "ParamribbonY4",
+			"GroupId": "ParamGroup15",
+			"Name": "리본 Y2 아래"
+		},
+		{
+			"Id": "ParamskirtX1",
+			"GroupId": "ParamGroup16",
+			"Name": "치마흔들림 X1"
+		},
+		{
+			"Id": "ParamskirtX2",
+			"GroupId": "ParamGroup16",
+			"Name": "치마흔들림 X2"
+		},
+		{
+			"Id": "ParamskirtX3",
+			"GroupId": "ParamGroup16",
+			"Name": "치마흔들림 X3"
+		},
+		{
+			"Id": "ParamskirtX4",
+			"GroupId": "ParamGroup16",
+			"Name": "치마흔들림 X4"
+		},
+		{
+			"Id": "ParamskirtX5",
+			"GroupId": "ParamGroup16",
+			"Name": "치마흔들림 X5"
+		},
+		{
+			"Id": "ParamskirtY1",
+			"GroupId": "ParamGroup16",
+			"Name": "치마흔들림 Y1"
+		},
+		{
+			"Id": "ParamskirtY2",
+			"GroupId": "ParamGroup16",
+			"Name": "치마흔들림 Y2"
+		},
+		{
+			"Id": "ParamskirtY3",
+			"GroupId": "ParamGroup16",
+			"Name": "치마흔들림 Y3"
+		},
+		{
+			"Id": "ParamskirtY4",
+			"GroupId": "ParamGroup16",
+			"Name": "치마흔들림 Y4"
+		},
+		{
+			"Id": "ParamshirtsX1",
+			"GroupId": "ParamGroup18",
+			"Name": "상의물리 X1"
+		},
+		{
+			"Id": "ParamshirtsX2",
+			"GroupId": "ParamGroup18",
+			"Name": "상의물리 X2"
+		},
+		{
+			"Id": "ParamshirtsY1",
+			"GroupId": "ParamGroup18",
+			"Name": "상의물리 Y1"
+		},
+		{
+			"Id": "ParamshirtsY2",
+			"GroupId": "ParamGroup18",
+			"Name": "상의물리 Y2"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "ParamGroup19",
+			"Name": "허벅지 X1"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "ParamGroup19",
+			"Name": "허벅지 X2"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "ParamGroup19",
+			"Name": "허벅지 Y1"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "ParamGroup19",
+			"Name": "허벅지 Y2"
+		},
+		{
+			"Id": "ParamarmX1",
+			"GroupId": "ParamGroup20",
+			"Name": "팔 X1"
+		},
+		{
+			"Id": "ParamarmX2",
+			"GroupId": "ParamGroup20",
+			"Name": "팔 X2"
+		},
+		{
+			"Id": "ParamarmX3",
+			"GroupId": "ParamGroup20",
+			"Name": "팔 X3"
+		},
+		{
+			"Id": "ParamarmY1",
+			"GroupId": "ParamGroup20",
+			"Name": "팔 Y1"
+		},
+		{
+			"Id": "ParamarmY2",
+			"GroupId": "ParamGroup20",
+			"Name": "팔 Y2"
+		},
+		{
+			"Id": "ParamarmY3",
+			"GroupId": "ParamGroup20",
+			"Name": "팔 Y3"
+		},
+		{
+			"Id": "ParamGownX1",
+			"GroupId": "ParamGroup21",
+			"Name": "가운몸통 X1"
+		},
+		{
+			"Id": "ParamGownX2",
+			"GroupId": "ParamGroup21",
+			"Name": "가운몸통 X2"
+		},
+		{
+			"Id": "ParamGownX3",
+			"GroupId": "ParamGroup21",
+			"Name": "가운몸통 X3"
+		},
+		{
+			"Id": "ParamGownY1",
+			"GroupId": "ParamGroup21",
+			"Name": "가운몸통 Y1"
+		},
+		{
+			"Id": "ParamGownY2",
+			"GroupId": "ParamGroup21",
+			"Name": "가운몸통 Y2"
+		},
+		{
+			"Id": "ParamGownY3",
+			"GroupId": "ParamGroup21",
+			"Name": "가운몸통 Y3"
+		},
+		{
+			"Id": "ParamGownArmX1",
+			"GroupId": "ParamGroup22",
+			"Name": "가운팔 X1"
+		},
+		{
+			"Id": "ParamGownArmX2",
+			"GroupId": "ParamGroup22",
+			"Name": "가운팔 X2"
+		},
+		{
+			"Id": "ParamGownArmX3",
+			"GroupId": "ParamGroup22",
+			"Name": "가운팔 X3"
+		},
+		{
+			"Id": "ParamGownArmY1",
+			"GroupId": "ParamGroup22",
+			"Name": "가운팔 Y1"
+		},
+		{
+			"Id": "ParamGownArmY2",
+			"GroupId": "ParamGroup22",
+			"Name": "가운팔 Y2"
+		},
+		{
+			"Id": "ParamGownArmY3",
+			"GroupId": "ParamGroup22",
+			"Name": "가운팔 Y3"
+		},
+		{
+			"Id": "ParamArmbandX1",
+			"GroupId": "ParamGroup23",
+			"Name": "완장 X1"
+		},
+		{
+			"Id": "ParamArmbandX2",
+			"GroupId": "ParamGroup23",
+			"Name": "완장 X2"
+		},
+		{
+			"Id": "ParamArmbandY1",
+			"GroupId": "ParamGroup23",
+			"Name": "완장 Y1"
+		},
+		{
+			"Id": "ParamArmbandY2",
+			"GroupId": "ParamGroup23",
+			"Name": "완장 Y2"
+		},
+		{
+			"Id": "Param23",
+			"GroupId": "ParamGroup24",
+			"Name": "하이라이트1"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "ParamGroup24",
+			"Name": "하이라이트2"
+		},
+		{
+			"Id": "Param25",
+			"GroupId": "ParamGroup24",
+			"Name": "하이라이트3"
+		},
+		{
+			"Id": "Param27",
+			"GroupId": "ParamGroup24",
+			"Name": "동공1"
+		},
+		{
+			"Id": "Param28",
+			"GroupId": "ParamGroup24",
+			"Name": "동공2"
+		},
+		{
+			"Id": "Param29",
+			"GroupId": "ParamGroup24",
+			"Name": "동공3"
+		},
+		{
+			"Id": "Param31",
+			"GroupId": "ParamGroup24",
+			"Name": "홍채1"
+		},
+		{
+			"Id": "Param34",
+			"GroupId": "ParamGroup24",
+			"Name": "홍채2"
+		},
+		{
+			"Id": "Param32",
+			"GroupId": "ParamGroup24",
+			"Name": "홍채3"
+		},
+		{
+			"Id": "Param26",
+			"GroupId": "ParamGroup25",
+			"Name": "하이라이트1"
+		},
+		{
+			"Id": "Param30",
+			"GroupId": "ParamGroup25",
+			"Name": "하이라이트2"
+		},
+		{
+			"Id": "Param33",
+			"GroupId": "ParamGroup25",
+			"Name": "하이라이트3"
+		},
+		{
+			"Id": "Param35",
+			"GroupId": "ParamGroup25",
+			"Name": "동공1"
+		},
+		{
+			"Id": "Param36",
+			"GroupId": "ParamGroup25",
+			"Name": "동공2"
+		},
+		{
+			"Id": "Param37",
+			"GroupId": "ParamGroup25",
+			"Name": "동공3"
+		},
+		{
+			"Id": "Param38",
+			"GroupId": "ParamGroup25",
+			"Name": "홍채1"
+		},
+		{
+			"Id": "Param39",
+			"GroupId": "ParamGroup25",
+			"Name": "홍채2"
+		},
+		{
+			"Id": "Param40",
+			"GroupId": "ParamGroup25",
+			"Name": "홍채3"
+		},
+		{
+			"Id": "ParamBlush",
+			"GroupId": "ParamGroup6",
+			"Name": "수줍음"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "ParamGroup6",
+			"Name": "정색"
+		},
+		{
+			"Id": "Paramglassesface",
+			"GroupId": "ParamGroup6",
+			"Name": "얼굴안경"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup6",
+			"Name": "머리안경"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup6",
+			"Name": "얼굴안경 곡면"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "ParamGroup6",
+			"Name": "우쿠렐레"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "ParamGroup6",
+			"Name": "가운"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "ParamGroup6",
+			"Name": "울먹눈"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "ParamGroup6",
+			"Name": "magnify X"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "ParamGroup6",
+			"Name": "magnify Y"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "ParamGroup6",
+			"Name": "빙글눈"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "ParamGroup6",
+			"Name": "빙글회전"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "ParamGroup6",
+			"Name": "하트눈"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "ParamGroup6",
+			"Name": "반짝눈"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "ParamGroup6",
+			"Name": "흑화"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "기본"
+		},
+		{
+			"Id": "ParamGroup14",
+			"GroupId": "",
+			"Name": "기본우쿠렐레손가락"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "눈"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "눈썹"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "입"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "눈물리"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "앞머리물리"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "옆머리물리"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "뒷머리1물리"
+		},
+		{
+			"Id": "ParamGroup11",
+			"GroupId": "",
+			"Name": "뒷머리2물리"
+		},
+		{
+			"Id": "ParamGroup12",
+			"GroupId": "",
+			"Name": "뒷머리3물리"
+		},
+		{
+			"Id": "ParamGroup13",
+			"GroupId": "",
+			"Name": "뒷머리4물리"
+		},
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "토끼귀물리"
+		},
+		{
+			"Id": "ParamGroup17",
+			"GroupId": "",
+			"Name": "몸 X 물리"
+		},
+		{
+			"Id": "ParamGroup15",
+			"GroupId": "",
+			"Name": "리본 물리"
+		},
+		{
+			"Id": "ParamGroup16",
+			"GroupId": "",
+			"Name": "치마물리"
+		},
+		{
+			"Id": "ParamGroup18",
+			"GroupId": "",
+			"Name": "상의물리"
+		},
+		{
+			"Id": "ParamGroup19",
+			"GroupId": "",
+			"Name": "허벅지물리"
+		},
+		{
+			"Id": "ParamGroup20",
+			"GroupId": "",
+			"Name": "팔물리"
+		},
+		{
+			"Id": "ParamGroup21",
+			"GroupId": "",
+			"Name": "가운몸통물리"
+		},
+		{
+			"Id": "ParamGroup22",
+			"GroupId": "",
+			"Name": "가운팔물리"
+		},
+		{
+			"Id": "ParamGroup23",
+			"GroupId": "",
+			"Name": "완장 흔들림"
+		},
+		{
+			"Id": "ParamGroup24",
+			"GroupId": "",
+			"Name": "눈동자물리 L"
+		},
+		{
+			"Id": "ParamGroup25",
+			"GroupId": "",
+			"Name": "눈동자물리 R"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "기믹"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "추가파츠"
+		},
+		{
+			"Id": "Part7",
+			"Name": "얼굴안경"
+		},
+		{
+			"Id": "Part8",
+			"Name": "머리안경"
+		},
+		{
+			"Id": "Part13",
+			"Name": "머리핀"
+		},
+		{
+			"Id": "Part30",
+			"Name": "머리카락"
+		},
+		{
+			"Id": "Part10",
+			"Name": "전반"
+		},
+		{
+			"Id": "PartSketch0",
+			"Name": "[ 밑그림 ]"
+		},
+		{
+			"Id": "Part2",
+			"Name": "가운 우쿠렐레팔"
+		},
+		{
+			"Id": "Part5",
+			"Name": "기본우쿠렐레손L손가락"
+		},
+		{
+			"Id": "Part4",
+			"Name": "기본 우쿠렐레팔"
+		},
+		{
+			"Id": "Part3",
+			"Name": "우쿠렐레"
+		},
+		{
+			"Id": "Part6",
+			"Name": "기본가운"
+		},
+		{
+			"Id": "Part23",
+			"Name": "앞머리"
+		},
+		{
+			"Id": "Part11",
+			"Name": "앞머리그림자"
+		},
+		{
+			"Id": "Part32",
+			"Name": "옆머리"
+		},
+		{
+			"Id": "Part24",
+			"Name": "뒷머리"
+		},
+		{
+			"Id": "Part33",
+			"Name": "뒷통수"
+		},
+		{
+			"Id": "Part46",
+			"Name": "얼굴"
+		},
+		{
+			"Id": "Part22",
+			"Name": "몸"
+		},
+		{
+			"Id": "Part27",
+			"Name": "토끼귀"
+		},
+		{
+			"Id": "Part12",
+			"Name": "우쿠렐레 손 L"
+		},
+		{
+			"Id": "Part47",
+			"Name": "R아래옆머리"
+		},
+		{
+			"Id": "Part45",
+			"Name": "L아래옆머리"
+		},
+		{
+			"Id": "Part26",
+			"Name": "뒷머리R"
+		},
+		{
+			"Id": "Part28",
+			"Name": "뒷머리L"
+		},
+		{
+			"Id": "Part40",
+			"Name": "눈L"
+		},
+		{
+			"Id": "Part35",
+			"Name": "눈L"
+		},
+		{
+			"Id": "Part31",
+			"Name": "입"
+		},
+		{
+			"Id": "Part34",
+			"Name": "상체"
+		},
+		{
+			"Id": "Part50",
+			"Name": "치마"
+		},
+		{
+			"Id": "Part48",
+			"Name": "다리L"
+		},
+		{
+			"Id": "Part14",
+			"Name": "R토끼귀"
+		},
+		{
+			"Id": "Part9",
+			"Name": "L토끼귀"
+		},
+		{
+			"Id": "Part41",
+			"Name": "눈L눈안쪽"
+		},
+		{
+			"Id": "Part36",
+			"Name": "눈L눈안쪽"
+		},
+		{
+			"Id": "Part52",
+			"Name": "팔R"
+		},
+		{
+			"Id": "Part51",
+			"Name": "팔L"
+		},
+		{
+			"Id": "Part49",
+			"Name": "다리L"
+		},
+		{
+			"Id": "Part42",
+			"Name": "눈L눈알"
+		},
+		{
+			"Id": "Part37",
+			"Name": "눈L눈알"
+		},
+		{
+			"Id": "Part43",
+			"Name": "눈L표정파츠"
+		},
+		{
+			"Id": "Part44",
+			"Name": "눈L기본눈알"
+		},
+		{
+			"Id": "Part38",
+			"Name": "눈L표정파츠"
+		},
+		{
+			"Id": "Part39",
+			"Name": "눈L기본눈알"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"Param8",
+			"Param9"
+		],
+		[
+			"Param16",
+			"Param17"
+		]
+	]
+}

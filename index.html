@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Live2D Sample</title>
+    <title>Live2D Sample Page</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.12/pixi.min.js"></script>
     <script src="https://cubism.live2d.com/sdk-web/bin/live2dcubismcore.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
@@ -11,15 +11,16 @@
     <canvas id="canvas"></canvas>
 
     <script>
-      
         window.onload = () => {
-           
-            if (!PIXI.live2d || !PIXI.live2d.Live2DModel) {
-                console.error("Live2D 라이브러리를 로드하지 못했습니다. 주소를 확인해주세요.");
+            // 라이브러리 로드 체크
+            if (!window.PIXI || !PIXI.live2d) {
+                console.error("라이브러리가 아직 로드되지 않았습니다. 잠시 후 새로고침 하세요.");
                 return;
             }
 
+            // 폴더명과 파일명 확인 (대소문자 주의!)
             const modelUrl = '아트머그샘플/라비아탄아트머그샘플.model3.json';
+
             const app = new PIXI.Application({
                 view: document.getElementById('canvas'),
                 autoStart: true,
@@ -27,23 +28,25 @@
                 transparent: true
             });
 
-          
+            // 가장 안전한 호출 방식
             PIXI.live2d.Live2DModel.from(modelUrl).then(model => {
                 app.stage.addChild(model);
 
-              
-                model.scale.set(0.3);
+                // 화면에 맞게 크기 조절 (너무 크면 숫자를 줄이세요)
+                model.scale.set(0.2); 
+                
+                // 화면 중앙 배치
                 model.x = window.innerWidth / 2;
                 model.y = window.innerHeight / 2;
                 model.anchor.set(0.5, 0.5);
 
-              
+                // 마우스 추적
                 model.interactive = true;
                 window.addEventListener('mousemove', (e) => {
                     model.focus(e.clientX, e.clientY);
                 });
             }).catch(err => {
-                console.error("모델 로드 에러:", err);
+                console.error("모델 로딩 실패! 경로를 확인하세요:", err);
             });
         };
     </script>
